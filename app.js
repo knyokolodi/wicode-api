@@ -7,8 +7,8 @@ const postsRoutes = require('./api/routes/posts');
 const userRoutes = require('./api/routes/user');
 const mailerRoutes = require('./api/routes/mailer');
 
-//mongoose.connect(`mongodb+srv://wicode:${config.mongo.password}@wicodeblog-lxlek.mongodb.net/test?retryWrites=true`, {useNewUrlParser: true});
-mongoose.connect('mongodb://localhost:27017/wicode', {useNewUrlParser: true});
+mongoose.connect(`mongodb+srv://wicode:${config.mongo.password}@wicodeblog-lxlek.mongodb.net/test?retryWrites=true`, {useNewUrlParser: true});
+//mongoose.connect('mongodb://localhost:27017/wicode', {useNewUrlParser: true});
 
 //Middle wares
 app.use('/uploads', express.static('uploads'))
