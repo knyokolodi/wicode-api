@@ -11,7 +11,7 @@ const config = {}
 
     config.mail = {}
     config.mail.username = 'knyokolodi@gmail.com';
-    config.mail.password = 'Keos@89072018';
+    config.mail.password = '2019@Keos';
     config.mail.service = 'Gmail';
     config.mail.sendTo = 'knyokolodi@gmail.com';
     config.mail.port = 465;
